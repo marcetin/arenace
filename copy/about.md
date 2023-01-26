@@ -1,12 +1,38 @@
-# SvelteKit Blog Starter
+## SvelteKit Blog Starter
 
-Demo: https://sveltekit-mdsvex-starter-blog.vercel.app/
+A opinioned Markdown blog starter built with SvelteKit, MDSveX,
+Tailwind CSS and DaisyUI.
+
+Put your Markdown docs in the `/posts` directory. The route for the
+post is determined from the containing folder.
+
+So this file structure:
+
+```text
+this-project-directory/
+├─ copy/
+│  └─ a-post-about-bread/
+│     └─ index.md
+```
+
+Will give this route: `posts/a-post-about-bread`.
+
+Good to note if you want to include local images in your posts.
+
+Give them the frontmatter:
+
+```markdown
+---
+date: 2021-09-17
+title: Hello world!
+published: true
+---
+```
+
+## Thanks
 
 Heavily inspired from [Mehdi Vasigh]'s [sveltekit-mdsvex-blog] and
 [Matt Jennings]'s [sveltekit-blog-template].
-
-Also massive thanks to @josh-collinsworth and his
-[sveltekit-blog-starter] example.
 
 Also this solution from [Michael Oliver] on [this issue].
 
@@ -31,5 +57,3 @@ Uses:
 [mdsvex]: https://mdsvex.com/
 [tailwind css]: https://tailwindcss.com/
 [daisyui]: https://daisyui.com/
-[sveltekit-blog-starter]:
-  https://github.com/josh-collinsworth/sveltekit-blog-starter
