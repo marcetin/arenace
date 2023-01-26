@@ -4,6 +4,7 @@
   import Panel from '@components/panel.svelte'
 </script>
 
+<div class="divider"></div> 
 
 <Title title="ARENACE TOKEN">Platform Tokenomics</Title>
 <Panel>Our base token and currency of the Arenace Gaming Platform. ARN is the fuel of the whole Arenace ecosystem and it cannot be staked to earn more of it. More details will be in our initial Whitepaper.</Panel>
