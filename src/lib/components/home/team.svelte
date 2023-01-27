@@ -4,9 +4,8 @@
   import Title from '@components/title.svelte'
   import Panel from '@components/panel.svelte'
 </script>
-<div class="divider"></div> 
-
-<div class="grid grid-cols-2 gap-4">
+<div class="px-8 py-32 bg-black">
+<div class="grid grid-cols-2 gap-4 mb-16">
   <Title title="ARENACE TEAM" >Main Team Members</Title>
   <Panel title="People behind Arenace startup project">The main Team members behind the Arenace project development have a lenghty years of expereince in the crypto industry, marketing, web development and grphics design. Beside the main team, we will be hiring more experienced and talented people to boost up Arenace platform on a whole new level of interactivity.</Panel>
 </div>
@@ -47,4 +46,5 @@ location="Asia / Malaysia"
 twitter="motleysquad"
 github="inkiya"
  ></Member>
+</div>
 </div>
